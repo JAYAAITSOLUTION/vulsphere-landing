@@ -20,33 +20,16 @@ const geistMono = Geist_Mono({
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "JAYAA IT Solution Pvt. Ltd.",
-  "url": "https://www.jayaaitsolution.com",
-  "logo": "https://www.jayaaitsolution.com/logo-jayaa.png",
-  "description": "Enterprise cybersecurity and IT solutions provider specializing in Zero Trust architecture, digital transformation, and advanced IT consulting for BFSI, Healthcare, and Government sectors.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Pune",
-    "addressRegion": "Maharashtra",
-    "addressCountry": "IN"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91-8268949507",
-    "contactType": "customer service",
-    "availableLanguage": "English"
-  },
-  "sameAs": [
-    "https://in.linkedin.com/company/jayaaitsolution",
-    "https://twitter.com/jayaaitsolution",
-    "https://www.facebook.com/JayaaITSolution/"
-  ],
+  "name": "VulSphere",
+  "url": "https://vulsphere.com",
+  "logo": "https://vulsphere.com/logo.png",
+  "description": "End-to-end vulnerability management platform running the entire security-testing lifecycle: Request, Test, Review, Fix, Verify, Report.",
   "areaServed": ["India", "Global"]
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.jayaaitsolution.com"),
-  title: "VulSphere - Enterprise Vulnerability Management Platform | JAYAA IT Solution",
+  metadataBase: new URL("https://vulsphere.com"),
+  title: "VulSphere - Enterprise Vulnerability Management Platform",
   description: "Comprehensive vulnerability management platform for modern security teams. Track 50K+ vulnerabilities, achieve 73% faster remediation, and ensure compliance across 15+ frameworks.",
   keywords: [
     "vulnerability management",
@@ -60,23 +43,22 @@ export const metadata: Metadata = {
     "risk management",
     "VulSphere"
   ],
-  authors: [{ name: "JAYAA IT Solution" }],
+  authors: [{ name: "VulSphere" }],
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
-      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+      { url: "/logo-circle.png", type: "image/png" },
     ],
-    shortcut: "/favicon.ico",
+    shortcut: "/logo-circle.png",
+    apple: "/logo-circle.png",
   },
   alternates: {
-    canonical: "https://www.jayaaitsolution.com/products/vulsphere",
+    canonical: "https://vulsphere.com",
   },
   openGraph: {
     title: "VulSphere - Enterprise Vulnerability Management Platform",
     description: "Comprehensive vulnerability management platform for modern security teams.",
-    url: "https://www.jayaaitsolution.com/products/vulsphere",
-    siteName: "JAYAA IT Solution",
+    url: "https://vulsphere.com",
+    siteName: "VulSphere",
     locale: "en_US",
     type: "website",
     images: [
@@ -93,8 +75,6 @@ export const metadata: Metadata = {
     title: "VulSphere - Enterprise Vulnerability Management Platform",
     description: "Comprehensive vulnerability management platform for modern security teams.",
     images: ["/images/products/vulsphere/og-image.png"],
-    site: "@jayaaitsolution",
-    creator: "@jayaaitsolution",
   },
   robots: {
     index: true,

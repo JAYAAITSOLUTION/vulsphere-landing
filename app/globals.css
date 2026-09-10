@@ -165,21 +165,21 @@
 :root {
   --radius: 0.625rem;
 
-  /* JAYAA IT Brand Colors - Based on Logo (Red/Gold Theme) */
-  --md-primary: #9A1B21;
+  /* Brand Colors */
+  --md-primary: #7B61C9;
   --md-on-primary: #FFFFFF;
-  --md-primary-container: #FFDAD6;
-  --md-on-primary-container: #410006;
+  --md-primary-container: #EDE7FF;
+  --md-on-primary-container: #2A1B5E;
 
-  --md-secondary: #B83236;
+  --md-secondary: #2E7CF6;
   --md-on-secondary: #FFFFFF;
-  --md-secondary-container: #FFDAD6;
-  --md-on-secondary-container: #410006;
+  --md-secondary-container: #E0ECFF;
+  --md-on-secondary-container: #0B2A5E;
 
-  --md-tertiary: #B83236;
+  --md-tertiary: #E84FA0;
   --md-on-tertiary: #FFFFFF;
-  --md-tertiary-container: #FFDAD6;
-  --md-on-tertiary-container: #410006;
+  --md-tertiary-container: #FCE0F0;
+  --md-on-tertiary-container: #5E0B3A;
 
   --md-surface: #FAFAFA;
   --md-on-surface: #1A1A1A;
@@ -199,56 +199,56 @@
   --md-error-container: #FFDAD6;
   --md-on-error-container: #410002;
 
-  /* Shadcn compatibility - map to JAYAA Brand Colors */
+  /* Shadcn compatibility - map to Brand Colors */
   --background: #FAFAFA;
   --foreground: #1A1A1A;
   --card: #FFFFFF;
   --card-foreground: #1A1A1A;
   --popover: #FAFAFA;
   --popover-foreground: #1A1A1A;
-  --primary: #9A1B21;
+  --primary: #7B61C9;
   --primary-foreground: #FFFFFF;
-  --secondary: #B83236;
+  --secondary: #2E7CF6;
   --secondary-foreground: #FFFFFF;
   --muted: #F5F5F5;
   --muted-foreground: #4A4A4A;
-  --accent: #9A1B21;
+  --accent: #7B61C9;
   --accent-foreground: #FFFFFF;
   --destructive: #BA1A1A;
   --border: #E8E8E8;
   --input: #E8E8E8;
-  --ring: #9A1B21;
-  --chart-1: #9A1B21;
-  --chart-2: #B83236;
-  --chart-3: #D4A017;
-  --chart-4: #FFB300;
-  --chart-5: #FF6F00;
+  --ring: #7B61C9;
+  --chart-1: #7B61C9;
+  --chart-2: #2E7CF6;
+  --chart-3: #E84FA0;
+  --chart-4: #F59E4C;
+  --chart-5: #8B5CF6;
   --sidebar: #FFFFFF;
   --sidebar-foreground: #1A1A1A;
-  --sidebar-primary: #9A1B21;
+  --sidebar-primary: #7B61C9;
   --sidebar-primary-foreground: #FFFFFF;
   --sidebar-accent: #F5F5F5;
   --sidebar-accent-foreground: #1A1A1A;
   --sidebar-border: #E8E8E8;
-  --sidebar-ring: #9A1B21;
+  --sidebar-ring: #7B61C9;
 }
 
 .dark {
-  /* JAYAA IT Dark Theme - Red/Gold Theme */
-  --md-primary: #FFB4AB;
-  --md-on-primary: #69000C;
-  --md-primary-container: #7F0010;
-  --md-on-primary-container: #FFDAD6;
+  /* Dark Theme */
+  --md-primary: #B79CFF;
+  --md-on-primary: #2A1B5E;
+  --md-primary-container: #4A3599;
+  --md-on-primary-container: #EDE7FF;
 
-  --md-secondary: #FFB4AB;
-  --md-on-secondary: #69000C;
-  --md-secondary-container: #7F0010;
-  --md-on-secondary-container: #FFDAD6;
+  --md-secondary: #9CC3FF;
+  --md-on-secondary: #0B2A5E;
+  --md-secondary-container: #1E4A99;
+  --md-on-secondary-container: #E0ECFF;
 
-  --md-tertiary: #FFB4AB;
-  --md-on-tertiary: #69000C;
-  --md-tertiary-container: #7F0010;
-  --md-on-tertiary-container: #FFDAD6;
+  --md-tertiary: #FF9CCF;
+  --md-on-tertiary: #5E0B3A;
+  --md-tertiary-container: #99296B;
+  --md-on-tertiary-container: #FCE0F0;
 
   --md-surface: #1A1A1A;
   --md-on-surface: #FAFAFA;
@@ -268,34 +268,34 @@
   --md-error-container: #93000A;
   --md-on-error-container: #FFDAD6;
 
-  /* Shadcn dark compatibility - JAYAA Theme */
+  /* Shadcn dark compatibility */
   --background: #1A1A1A;
   --foreground: #FAFAFA;
   --card: #2A2A2A;
   --card-foreground: #FAFAFA;
   --popover: #2A2A2A;
   --popover-foreground: #FAFAFA;
-  --primary: #FFB4AB;
-  --primary-foreground: #69000C;
-  --secondary: #7F0010;
-  --secondary-foreground: #FFDAD6;
+  --primary: #B79CFF;
+  --primary-foreground: #2A1B5E;
+  --secondary: #1E4A99;
+  --secondary-foreground: #E0ECFF;
   --muted: #333333;
   --muted-foreground: #9A9A9A;
-  --accent: #7F0010;
-  --accent-foreground: #FFDAD6;
+  --accent: #4A3599;
+  --accent-foreground: #EDE7FF;
   --destructive: #FFB4AB;
   --border: #3A3A3A;
   --input: #3A3A3A;
-  --ring: #FFB4AB;
-  --chart-1: #FFB4AB;
-  --chart-2: #FFDAD6;
-  --chart-3: #FFDFC6;
-  --chart-4: #FFD700;
-  --chart-5: #FF8C00;
+  --ring: #B79CFF;
+  --chart-1: #B79CFF;
+  --chart-2: #9CC3FF;
+  --chart-3: #FF9CCF;
+  --chart-4: #FFC97A;
+  --chart-5: #8B5CF6;
   --sidebar: #2A2A2A;
   --sidebar-foreground: #FAFAFA;
-  --sidebar-primary: #FFB4AB;
-  --sidebar-primary-foreground: #69000C;
+  --sidebar-primary: #B79CFF;
+  --sidebar-primary-foreground: #2A1B5E;
   --sidebar-accent: #333333;
   --sidebar-accent-foreground: #FAFAFA;
   --sidebar-border: #3A3A3A;
