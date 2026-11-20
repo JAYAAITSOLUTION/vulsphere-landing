@@ -6,10 +6,11 @@ const VULSPHERE_URL = "https://vulsphere.com";
 
 const footerLinks = {
   product: [
-    { href: "#capabilities", label: "Capabilities" },
-    { href: "#integrations", label: "Integrations" },
-    { href: "#pricing", label: "Pricing" },
-    { href: "#faq", label: "FAQ" },
+    { href: "/#capabilities", label: "Capabilities" },
+    { href: "/#integrations", label: "Integrations" },
+    { href: "/#pricing", label: "Pricing" },
+    { href: "/#faq", label: "FAQ" },
+    { href: "/blog", label: "Blog" },
   ],
   getStarted: [
     { href: VULSPHERE_URL, label: "Request Demo" },

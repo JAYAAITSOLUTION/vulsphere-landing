@@ -18,10 +18,11 @@ const VULSPHERE_URL = "https://vulsphere.com";
 const GRADIENT = "linear-gradient(90deg, #2E7CF6, #8B5CF6, #E84FA0)";
 
 const navLinks = [
-  { href: "#capabilities", label: "Capabilities" },
-  { href: "#integrations", label: "Integrations" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#faq", label: "FAQ" },
+  { href: "/#capabilities", label: "Capabilities" },
+  { href: "/#integrations", label: "Integrations" },
+  { href: "/#pricing", label: "Pricing" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export function Navbar() {
